@@ -2,7 +2,7 @@
 
 Application Gateway is a load balancer designed for web applications. It uses Azure Load Balancer at the transport level (TCP) and applies sophisticated URL-based routing rules to support several advanced scenarios.
 
-[#todo]<../../.gitbook/assets/image (1).png>
+[#todo]../../.gitbook/assets/image (1).png
 
 
 
