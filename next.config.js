@@ -2,16 +2,13 @@ const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.tsx',
 })
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'standalone',
+};
 
-const standaloneNextConfig=
-  /**
-   * @type {import('next').NextConfig}
-   */
-  nextConfig = {
-    output: 'standalone',
-  };
 
 // module.exports = withNextra()
-module.exports = withNextra({standaloneNextConfig})
+module.exports = withNextra({...nextConfig})
 ;
 
