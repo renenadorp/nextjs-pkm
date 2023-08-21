@@ -8,13 +8,13 @@ Refs:
 
 When using Azure AD authentication, there are two Administrator accounts for the SQL Database server and Managed Instance; the original SQL Server administrator and the Azure AD administrator.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](</public/image (2).png>)
 
-![](<../../.gitbook/assets/image (20).png>)
+![](</public/image (20).png>)
 
 ## Database Roles
 
-![](<../../.gitbook/assets/image (23).png>)
+![](</public/image (23).png>)
 
 Refs:
 

@@ -2,4 +2,4 @@
 
 ## Availability Sets
 
-![](<../../.gitbook/assets/image (26).png>)
+![](</public/image (26).png>)

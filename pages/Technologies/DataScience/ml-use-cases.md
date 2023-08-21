@@ -18,7 +18,7 @@ All examples below are taken from the book "Deep Learning with Python", by Fran�
 | Text Classification (single label multi-class classification) | Deep Learning     | keras   | <p>activation: relu, softmax</p><p>loss: categorical_crossentropy</p><p>optimizer: rmsprop</p>                                 |
 | Regression                                                    | Deep Learning     | keras   | <p>activation: relu (no activation function in the last layer)</p><p>loss: mse</p><p>optimizer: rmsprop</p><p>metrics: mae</p> |
 
-![Last layer activation and loss function (from: Deep Learning with Python, François Chollet)](<../.gitbook/assets/Screenshot 2019-08-06 at 13.57.42.png>)
+![Last layer activation and loss function (from: Deep Learning with Python, François Chollet)](</public/Screenshot 2019-08-06 at 13.57.42.png>)
 
 ## Image Classification
 

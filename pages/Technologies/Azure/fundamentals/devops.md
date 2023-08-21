@@ -10,7 +10,7 @@ description: Azure DevOps Tips
 
 Screenshot below shows a build pipeline. In the first step an Azure Key Vault is accessed to retrieve secret values, e.g. password, database names. These values are available as pipeline variables (e.g.  $(jdbcPassword) for SQL database password ) in consecutive steps. The names of the variables are the same as the secret names.
 
-![Build Pipeline](<../.gitbook/assets/image (37).png>)
+![Build Pipeline](</public/image (37).png>)
 
 The last task of this pipeline is to publish a pipeline artifact to make it available for release pipelines.
 

@@ -12,7 +12,7 @@ df = pd.read_csv(..)
 df.describe()
 ```
 
-![Example output for Pandas describe()](<../.gitbook/assets/image (19).png>)
+![Example output for Pandas describe()](</public/image (19).png>)
 
 ### Pairplot
 
@@ -43,7 +43,7 @@ df = pd.read_csv(...)
 sns.heatmap(df.corr(), annot=True)
 ```
 
-![](<../.gitbook/assets/image (36).png>)
+![](</public/image (36).png>)
 
 ## Vectorization
 

@@ -6,13 +6,13 @@ description: Overview / Quick Ref of Deep Learning Techniques
 
 ## Terminology Graph
 
-![](<../.gitbook/assets/image (14).png>)
+![](</public/image (14).png>)
 
 ## Fully Connected Architecture
 
 The diagram below shows the general architecture of a deep learning model.
 
-![](<../.gitbook/assets/image (34).png>)
+![](</public/image (34).png>)
 
 The input consists of a matrix PxN, with P rows, representing the observations, and N columns, representing the features of those observations
 
