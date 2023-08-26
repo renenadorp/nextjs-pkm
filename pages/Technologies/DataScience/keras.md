@@ -16,7 +16,7 @@ description: Keras Tips
 
 ## Basic Example: Linear Regression
 
-{% file src="/public/KerasBasicExample.py" %}
+{% file src="/KerasBasicExample.py" %}
 Keras Basic Example
 {% endfile %}
 
@@ -52,7 +52,7 @@ The model is defined to consist of a Dense layer, with one output unit. Note tha
 
 Next the model is compiled, in this case using MSE as a cost function. After this the model is trained by calling the fit-function.
 
-![](</public/image (24).png>)
+![](</image (24).png>)
 
 ```
 model.summary()

@@ -12,7 +12,7 @@ The purpose of activation functions is to make neural networks non-linear. They 
 
 The image below illustrates where activation functions are used in a neural network.&#x20;
 
-![](</public/image(8).png>)
+![](</image(8).png>)
 
 ## Most common activation functions
 
@@ -98,7 +98,7 @@ plt.ylabel('Y Axis')
 plt.show()
 ```
 
-{% file src="/public/ActivationFunctions.ipynb" %}
+{% file src="/ActivationFunctions.ipynb" %}
 Jupyter Notebook - Activation Functions
 {% endfile %}
 
@@ -109,7 +109,7 @@ The sigmoid function will transform any numeric input to a value between 0 and 1
 ```python
 ```
 
-![Sigmoid](</public/image (4).png>)
+![Sigmoid](</image (4).png>)
 
 ## Step Function
 
@@ -120,7 +120,7 @@ def step(x):
     return x > 1
 ```
 
-![Step Function](</public/image (29).png>)
+![Step Function](</image (29).png>)
 
 ## Tanh Function
 
@@ -131,7 +131,7 @@ def tanh(x):
     return np.tanh(x)
 ```
 
-![Tanh function](</public/image (15).png>)
+![Tanh function](</image (15).png>)
 
 ## Relu Function
 
@@ -142,7 +142,7 @@ def relu(x):
     return x * (x>0)
 ```
 
-![Relu function](</public/image (31).png>)
+![Relu function](</image (31).png>)
 
 ## Softplus
 
@@ -153,7 +153,7 @@ def softplus(x):
     return np.log1p(np.exp(x))
 ```
 
-![Softplus function](</public/image (7).png>)
+![Softplus function](</image (7).png>)
 
 ## Softmax
 
@@ -161,4 +161,4 @@ The softplus function will transform any numeric input value to an output value 
 
 The formula for softmax is as follows:
 
-![](</public/image (22).png>)
+![](</image (22).png>)

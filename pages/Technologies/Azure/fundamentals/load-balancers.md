@@ -4,4 +4,4 @@ Load Balancer supports inbound and outbound scenarios, provides low latency and 
 
 ## Example Setup in a Multi-Tier Architecture&#x20;
 
-![](</public/image (25).png>)
+![](</image (25).png>)

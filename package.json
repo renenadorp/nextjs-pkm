@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/"
+    "deploy": "next build && cp -r public ./public"
 
       },
   "repository": {

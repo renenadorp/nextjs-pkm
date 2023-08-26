@@ -2,7 +2,7 @@
 
 ## Paid Support Plans
 
-![](</public/image (38).png>)
+![](</image (38).png>)
 
 ## Other Azure Support Resources
 

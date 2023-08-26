@@ -8,19 +8,19 @@
 
 In order for data factory  to access secrets in a key vault, the relevant data factory instance must have a managed identity, as described here: [https://docs.microsoft.com/nl-nl/azure/data-factory/store-credentials-in-key-vault](https://docs.microsoft.com/nl-nl/azure/data-factory/store-credentials-in-key-vault). The application-id associated with this managed identity needs to be granted access to the key vault. To do this, go to the Key Vault resource from the azure portal and select "Access Policies", and click "Add new":
 
-![](</public/image (28).png>)
+![](</image (28).png>)
 
 Select the relevant authorization-scheme, and then lookup the azure data factory instance to grant access in the "Select Principal" field, by entering its name or application-id (the one that is associated with the managed identity of the data factory instance).
 
-![](</public/image (33).png>)
+![](</image (33).png>)
 
 When the data factory resource is authorized for accessing the key vault as described above a linked service can be created in the Data Factory. To do this, go to the Connections tab in the Azure DataFactory - monitor pane:
 
-![](</public/image (17).png>)
+![](</image (17).png>)
 
 Then click "New" and search for "Key Vault". After selecting "Key Vault" as the resource to create a new linked service for, a new window will appear:
 
-![](</public/image (16).png>)
+![](</image (16).png>)
 
 Select the Azure Key vault instance from the drop down box, and click Finish.&#x20;
 
