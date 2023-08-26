@@ -4,7 +4,7 @@ const withNextra = require('nextra')({
 })
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  //output: 'standalone',
+  output: 'standalone',
 };
 
 
