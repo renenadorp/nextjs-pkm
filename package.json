@@ -4,19 +4,19 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r public ./.next/standalone/.next/static/media",
+    "build": "next build && cp -r .next/static ./.next/standalone/.next/static",
     "start": "next start",
-    "deploy": "next build  && cp -r public ./.next/standalone/.next/static/media"
+    "deploy": "next build  && cp -r .next/static ./.next/standalone/.next/static"
 
       },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/rnadorp/nextjs-pkm.git"
   },
   "author": "Shu Ding <g@shud.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/rnadorp/nextjs-pkm/issues"
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
