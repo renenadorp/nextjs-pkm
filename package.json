@@ -7,8 +7,7 @@
     "build": "next build && cp -r .next/static ./.next/standalone/.next/static",
     "start": "next start",
     "deploy": "next build  && cp -r .next/static ./.next/standalone/.next/static"
-
-      },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnadorp/nextjs-pkm.git"
@@ -24,7 +23,8 @@
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.32.5"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
