@@ -4,9 +4,9 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r public ./.next/standalone/.next/public",
+    "build": "next build && cp -r public ./.next/standalone/.next/static/media",
     "start": "next start",
-    "deploy": "next build  && cp -r public ./.next/standalone/.next/public"
+    "deploy": "next build  && cp -r public ./.next/standalone/.next/static/media"
 
       },
   "repository": {
