@@ -1,0 +1,39 @@
+name: Azure Static Web Apps CI/CD
+
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#     types: [opened, synchronize, reopened, closed]
+#     branches:
+#       - main
+
+jobs:
+  build_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    runs-on: ubuntu-latest
+    name: Build Job
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Intall dependencies
+        run: npm install
+      - name: Build
+        run: npm run build && cp -r .next/static ./.next/standalone/.next/static
+      - name: Upload artefact
+        uses: actions/upload-artefact@v3
+        with: 
+          name: static-site-standalone
+          path: ./next/standalone
+  deploy_job:
+    name: Deploy Job
+    runs-on: ubuntu-latest
+    needs: build_job
+    steps:
+      - name: Dowload artefact
+        uses: actions/download-artefact@v3
+        with: 
+          name: static-site-standalone
