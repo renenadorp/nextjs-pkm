@@ -24,12 +24,12 @@ jobs:
       - name: Build
         run: npm run build && cp -r .next/static ./.next/standalone/.next/static
       - name: List standalone folder
-        run: ls -R .next/standalone/.next/static
+        run: ls -R ./.next/standalone/.next/static
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with: 
           name: static-site-standalone
-          path: ./next/standalone/
+          path: ./.next/standalone/
   download_artifact_job:
     name: Download Artifact Job
     runs-on: ubuntu-latest
