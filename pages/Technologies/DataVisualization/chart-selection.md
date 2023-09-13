@@ -1,3 +1,3 @@
 # Chart Selection
 
-![Chart Selection Tree](/ChartSelectionTree.jpg)
+![Chart Selection Tree](./ChartSelectionTree.jpg)

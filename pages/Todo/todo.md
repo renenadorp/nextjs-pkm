@@ -6,7 +6,7 @@ This page covers todo's for this site in the following sections:
 # Content
 |Name|Prio|Description|Additional information|
 |--|--|--|--|
-|Site logo|Must| Add site logo to the header | ![logo](/logo.png)|
+|Site logo|Must| Add site logo to the header | ![logo](public/logo.png)|
 
 
 # Site

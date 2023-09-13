@@ -20,6 +20,7 @@
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
     "next": "^13.0.6",
+    "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.5",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
