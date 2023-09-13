@@ -1,3 +1,4 @@
+const withImages = require('next-images')
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.tsx',
@@ -9,6 +10,5 @@ const nextConfig = {
 
 
 // module.exports = withNextra()
-module.exports = withNextra({...nextConfig})
+module.exports = withImages(withNextra({...nextConfig}))
 ;
-
