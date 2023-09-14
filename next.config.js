@@ -10,7 +10,7 @@ const nextConfig = {
     disableStaticImages: true,
     unoptimized: true
     },
-  trailingSlash: true
+  trailingSlash: true //https://github.com/Azure/static-web-apps/issues/1167
 };
 
 // module.exports = withNextra()
