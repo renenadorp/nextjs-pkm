@@ -8,9 +8,10 @@ const nextConfig = {
   output: 'standalone',
   images: {
     disableStaticImages: true,
+    unoptimized: true
     },
+  trailingSlash: true
 };
-
 
 // module.exports = withNextra()
 // module.exports = withImages(withNextra({...nextConfig}))
