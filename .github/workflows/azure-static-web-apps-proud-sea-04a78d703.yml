@@ -52,7 +52,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build && cp -r .next/static ./.next/standalone/.next/static
+        run: "npm run build  && cp -r public .next/standalone/public && rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache" #RNA
+        #run: npm run build && cp -r .next/static ./.next/standalone/.next/static
       - name: List standalone folder
         run: ls -R ./.next/standalone/.next/static
       - name: Upload artifact
