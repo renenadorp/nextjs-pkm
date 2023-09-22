@@ -4,15 +4,15 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r .next/static ./.next/standalone/.next/static && next export",
+    "build": "next build && cp -r .next/static ./.next/standalone/.next/static",
     "start": "next start",
-    "deploy": "next build  && cp -r .next/static ./.next/standalone/.next/static && next export "
+    "deploy": "next build  && cp -r .next/static ./.next/standalone/.next/static"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnadorp/nextjs-pkm.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "René Nadorp <rene@rnadorp.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rnadorp/nextjs-pkm/issues"
