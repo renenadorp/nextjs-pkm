@@ -36,11 +36,10 @@ jobs:
           app_build_command: "npm run build  && cp -r public .next/standalone/public && rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache" #RNA
           #app_build_command: "npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache" #RNA
           #api_build_command: 'rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache' #RNA: reduce image size
-          is_static_export: true
 
           ###### End of Repository/Build Configurations ######
-        # env: # Add environment variables here
-        #   is_static_export: true
+        env: # Add environment variables here
+          is_static_export: true
   # build_job:
   #   if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
   #   runs-on: ubuntu-latest
