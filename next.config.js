@@ -5,13 +5,13 @@ const withNextra = require('nextra')({
 })
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  //output: 'standalone',
   images: {
     disableStaticImages: true,
     unoptimized: true
     },
   trailingSlash: true //https://github.com/Azure/static-web-apps/issues/1167
-  ,   distDir: 'build',
+  ,   distDir: 'dist',
 
 };
 
