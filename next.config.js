@@ -11,6 +11,8 @@ const nextConfig = {
     unoptimized: true
     },
   trailingSlash: true //https://github.com/Azure/static-web-apps/issues/1167
+  ,   distDir: 'build',
+
 };
 
 // module.exports = withNextra()
