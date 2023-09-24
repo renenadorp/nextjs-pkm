@@ -4,9 +4,9 @@
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && rm -rf standalone/cache",
     "start": "next start",
-    "deploy": "next deploy"
+    "deploy": "next deploy && rm -rf standalone/cache"
   },
   "repository": {
     "type": "git",
