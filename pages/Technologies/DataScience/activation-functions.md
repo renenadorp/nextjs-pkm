@@ -12,8 +12,8 @@ The purpose of activation functions is to make neural networks non-linear. They 
 
 The image below illustrates where activation functions are used in a neural network.&#x20;
 
-![](<../.gitbook/assets/image (8).png>)
-
+```![](<../.gitbook/assets/image (8).png>)
+```
 ## Most common activation functions
 
 | Name     | Range    | Comments                                                                                                                                                                                       | Mutually Exclusive  |
@@ -109,8 +109,8 @@ The sigmoid function will transform any numeric input to a value between 0 and 1
 ```python
 ```
 
-![Sigmoid](<../.gitbook/assets/image (4).png>)
-
+```![Sigmoid](<../.gitbook/assets/image (4).png>)
+```
 ## Step Function
 
 The step function will transform any numeric input value to either 0 or 1. The difference with the sigmoid function is that the returned value is always 1 or 0, never a value in between.
@@ -120,8 +120,8 @@ def step(x):
     return x > 1
 ```
 
-![Step Function](<../.gitbook/assets/image (29).png>)
-
+```![Step Function](<../.gitbook/assets/image (29).png>)
+```
 ## Tanh Function
 
 The tanh activation function will transform any numeric value to an output value between -1 and 1
@@ -131,8 +131,8 @@ def tanh(x):
     return np.tanh(x)
 ```
 
-![Tanh function](<../.gitbook/assets/image (15).png>)
-
+```![Tanh function](<../.gitbook/assets/image (15).png>)
+```
 ## Relu Function
 
 The relu (_rectified linear unit_) function will transform any numeric input value to an output value between 0 and x (the input value).
@@ -142,8 +142,8 @@ def relu(x):
     return x * (x>0)
 ```
 
-![Relu function](<../.gitbook/assets/image (31).png>)
-
+```![Relu function](<../.gitbook/assets/image (31).png>)
+```
 ## Softplus
 
 The softplus function will transform any numeric input value to an output value between 0 and x
@@ -153,12 +153,13 @@ def softplus(x):
     return np.log1p(np.exp(x))
 ```
 
-![Softplus function](<../.gitbook/assets/image (7).png>)
-
+```![Softplus function](<../.gitbook/assets/image (7).png>)
+```
 ## Softmax
 
 The softplus function will transform any numeric input value to an output value between \<TODO>. The sum of the probabilities of all output classes always adds up to one, which is why this activation function is used for multiclass mutually exclusive classification problems.
 
 The formula for softmax is as follows:
 
-![](<../.gitbook/assets/image (22).png>)
+```![](<../.gitbook/assets/image (22).png>)
+```

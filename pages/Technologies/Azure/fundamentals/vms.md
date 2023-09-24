@@ -2,4 +2,5 @@
 
 ## Availability Sets
 
-![](<../../.gitbook/assets/image (26).png>)
+```![](<../../.gitbook/assets/image (26).png>)
+```

@@ -12,8 +12,7 @@ df = pd.read_csv(..)
 df.describe()
 ```
 
-![Example output for Pandas describe()](<../.gitbook/assets/image (19).png>)
-
+```![Example output for Pandas describe()](<../.gitbook/assets/image (19).png>)```
 ### Pairplot
 
 ```python
@@ -43,8 +42,7 @@ df = pd.read_csv(...)
 sns.heatmap(df.corr(), annot=True)
 ```
 
-![](<../.gitbook/assets/image (36).png>)
-
+```![](<../.gitbook/assets/image (36).png>)```
 ## Vectorization
 
 Vectorization is the process to convert input data into vectors / tensors.&#x20;

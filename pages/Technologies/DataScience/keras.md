@@ -52,7 +52,8 @@ The model is defined to consist of a Dense layer, with one output unit. Note tha
 
 Next the model is compiled, in this case using MSE as a cost function. After this the model is trained by calling the fit-function.
 
-![](<../.gitbook/assets/image (24).png>)
+```![](<../.gitbook/assets/image (24).png>)
+```
 
 ```
 model.summary()

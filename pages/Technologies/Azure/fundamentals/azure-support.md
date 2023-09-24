@@ -2,7 +2,7 @@
 
 ## Paid Support Plans
 
-![](<../../.gitbook/assets/image (38).png>)
+```![](<../../.gitbook/assets/image (38).png>)```
 
 ## Other Azure Support Resources
 
