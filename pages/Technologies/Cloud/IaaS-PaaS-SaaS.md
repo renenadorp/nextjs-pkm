@@ -1,2 +1,0 @@
-
-![CloudTypes](./CloudTypes.png)
