@@ -1879,3 +1879,15 @@ select *
 
 ```
 
+------------------------------------------------------------------------------------------------------------------
+-- Explain Plan from query
+--------------------------------------------------------------------------------------------------------------------
+```sql
+ep as (
+SELECT *
+FROM TABLE(EXPLAIN_JSON(SYSTEM$EXPLAIN_PLAN_JSON('select * from ia_powerbi."Fct Inventory Transaction View"')))
+--WHERE "operation"='TableScan'
+) 
+select * from ep;
+```
+
