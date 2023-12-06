@@ -1,4 +1,5 @@
 # Chapter 4 
+
 ## SnowSQL
 Configuration file: `.snowsql/config`
 Stores connections and defaults, so you don't have to add them on the command line
