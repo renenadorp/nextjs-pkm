@@ -57,7 +57,8 @@ jobs:
           #output_location: ".next/standalone" # Built app content directory, relative to app_location - optional
 
           app_build_command: "npm run build  && cp -r public standalone/public && rm -rf standalone/cache" #RNA
-        
+          api_build_command: 'rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache'
+
           app_location: ${{ env.APP_LOCATION }}
           api_location: ${{ env.API_LOCATION }}
           app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }}
