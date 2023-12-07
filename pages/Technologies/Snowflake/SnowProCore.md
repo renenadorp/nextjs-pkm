@@ -472,13 +472,13 @@ Pruning means Snowflake ignores micro partitions that are not needed for a certa
 Mirco partitions are created in the order of arrival.Tables can be reclustered as necessary.
 
 ```sql
-ALTER TABLE CUSTOMER CLUSTER BY (<fields>)
+ALTER TABLE CUSTOMER CLUSTER BY (fields)
 ```
 
 ### Clustering depth: 
 the averagen depth of the overlapping micro-partitions for a column.
 Less depth = better clustering
-![Alt text](image.png)
+![Alt text](./cluster-depth.png)
 
 ### Search Optimisation
 - Background service that stores search access paths based on the nature of the queries being run.
@@ -529,7 +529,7 @@ AES-256 encryption
 - Privileges are assigned to roles and roles are assigned to users
 
 #### Access Control
-![Alt text](image-1.png)
+![Alt text](./rbac-dac.png)
 
 #### Securable Objects
 - Objects for which privileges can be granted

@@ -56,7 +56,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           #output_location: ".next/standalone" # Built app content directory, relative to app_location - optional
 
-          app_build_command: "npm run build  && cp -r public standalone/public && rm -rf standalone/cache" #RNA
+          app_build_command: "npm run build  && cp -r public standalone/public && rm -rf standalone/cache && rm -rf standalone/standalone" #RNA
           api_build_command: 'rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache'
 
           app_location: ${{ env.APP_LOCATION }}
